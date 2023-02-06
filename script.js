@@ -1,24 +1,40 @@
-$(document).ready(function(){
+$(document).ready(function () {
 
+    const pedra = "pedra"
+    const papel = "papel"
+    const tesoura = "tesoura"
 
     var player_select;
 
-    $(".papel_item").on("click", function(){
+    var bot_select;
 
-        player_select = "papel"
+    $(".papel_item").on("click", function () {
 
-    })
-
-    $(".pedra_item").on("click", function(){
-
-        player_select = "pedra"
+        player_select = papel
 
     })
 
-    $(".tesoura_item").on("click", function(){
+    $(".pedra_item").on("click", function () {
 
-        player_select = "tesoura"
+        player_select = pedra
 
     })
+
+    $(".tesoura_item").on("click", function () {
+
+        player_select = tesoura
+
+    })
+
+
 
 })
+
+// Seleção do Bot
+function bot_select_item(){
+
+    var ArrayItens = ['pedra', 'papel', 'tesoura'];
+    var bot_select = ArrayItens[(Math.random() * ArrayItens.length) | 0]
+    console.log(bot_select)
+
+}
