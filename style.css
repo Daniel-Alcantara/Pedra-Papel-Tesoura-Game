@@ -6,9 +6,14 @@
     border: 0px;
 }
 
+html{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
 body{
-    background-image: linear-gradient(to bottom,hsl(214, 47%, 23%), hsl(237, 49%, 15%));
-    height: 100vh;
+    background-image: linear-gradient(to right,hsl(214, 47%, 23%), hsl(237, 49%, 15%));
     font-family: "Barlow Semi Condensed";
 }
 
@@ -90,11 +95,17 @@ body{
     
 }
 
-button{
+.rules_content button{
     background-color: unset;
     border: 2px solid #8b8ea8;
     color: white;
     padding: .5rem 1rem;
     cursor: pointer;
     border-radius: 10px;
+}
+
+.box_item_selecionado{
+    width: 40%;
+    margin: 0px auto;
+    margin-top: 5rem;
 }
