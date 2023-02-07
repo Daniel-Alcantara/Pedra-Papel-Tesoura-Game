@@ -103,7 +103,17 @@ $(document).ready(function () {
 
     })
 
+    $(document).on("click", ".rules_content", function(){
 
+        $(".modal_rules").css("display", "block")
+
+    })
+
+    $(document).on("click", ".close_regras", function(){
+
+        $(".modal_rules").css("display", "none")
+
+    })
 })
 
 // Seleção do Bot

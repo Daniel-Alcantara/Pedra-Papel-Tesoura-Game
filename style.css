@@ -129,3 +129,51 @@ body{
     border-radius: 10px;
     text-align: center;
 }
+
+.modal_rules{
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.modal_box{
+    width: 380px;
+    margin: 0px auto;
+    background-image: linear-gradient(to right,hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+    height: 320px;
+    margin-top: 10rem;
+    border-radius: 10px;
+    padding: 2rem;
+    border: 1px solid white;
+    color: black;
+}
+
+.title_rules{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black;
+}
+
+.text_rules{
+    margin-top: 1rem;
+    font-size: 16px;
+}
+
+.text_rules p{
+    margin-bottom: .5rem;
+}
+
+.info_inportant{
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.close_regras{
+    cursor: pointer;
+}
