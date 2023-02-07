@@ -170,8 +170,8 @@ body{
 
 .info_inportant{
     margin-top: 1rem;
-    font-weight: bold;
     font-size: 20px;
+    color: #8b8ea8;
 }
 
 .close_regras{
