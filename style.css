@@ -105,7 +105,27 @@ body{
 }
 
 .box_item_selecionado{
-    width: 40%;
+    display: flex;
     margin: 0px auto;
-    margin-top: 5rem;
+    width: 40%;
+    justify-content: space-around;
+    margin-top: 6rem;
+    align-items: center;
+    display: none;
+}
+
+.mensagem_resultado{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 1rem;
+}
+
+.jogar_novamente{
+    background-color: white;
+    border: 2px solid #8b8ea8;
+    color: black;
+    padding: .5rem;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
 }
